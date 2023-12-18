@@ -1,6 +1,8 @@
 import React from "react";
+import { Canvas } from "@react-three/fiber";
+import { Enviroment, Center } from "@react-three/drei";
 
-const Canvas = () => {
+const CanvasModel = () => {
   return <div>Canvas</div>;
 };
 
