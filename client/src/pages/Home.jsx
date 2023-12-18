@@ -27,6 +27,15 @@ const Home = () => {
                 LET'S <br className="xl:block hidden" /> DO IT.
               </h1>
             </motion.div>
+            <motion.div
+              {...headContentAnimation}
+              className="flex flex-column gap-5"
+            >
+              <p className="max-w-md font-normal text-gray-600 text-base">
+                Create your own unique shirt with our 3D customization tool.
+              </p>
+              <CustomButton />
+            </motion.div>
           </motion.div>
         </motion.section>
       )}
